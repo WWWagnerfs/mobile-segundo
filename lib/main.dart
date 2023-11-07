@@ -34,10 +34,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _selectIndex = 0;
   List<Widget> pages = const [
-    Text(
-      "1",
-      style: TextStyle(fontSize: 48),
-    ),
+    PageCar(),
     Text(
       "2",
       style: TextStyle(fontSize: 48),
